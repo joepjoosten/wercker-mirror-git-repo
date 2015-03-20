@@ -15,3 +15,8 @@ This step will use the step cache for faster incremental mirroring.
         origin: https://github.com/exampleuser/repository-to-mirror.git
         mirror: https://github.com/exampleuser/mirrored
 ```
+
+Tip
+--------
+
+Use access tokens to circumvent the ssh key problems (e.g. https://access_token@github.com/exampleuser/mirrored)
