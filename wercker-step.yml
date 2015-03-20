@@ -1,0 +1,7 @@
+name: mirror-git-repo
+version: 0.0.1
+description: mirror git repo with remote repository
+properties:
+  remote:
+    type: string
+    required: true
