@@ -7,16 +7,16 @@ Mirror git repo with remote repository
 Example
 --------
 
-Set the required origin and mirror git location.
+Set the required access-token for the origin repository, and mirror git location.
 This step will use the step cache for faster incremental mirroring.
 
 ```
     - joepjoosten/mirror-git-repo:
-        origin: https://github.com/exampleuser/repository-to-mirror.git
+        access-token: access_token
         mirror: https://github.com/exampleuser/mirrored
 ```
 
 Tip
 --------
 
-Use access tokens to circumvent the ssh key problems (e.g. https://access_token@github.com/exampleuser/mirrored)
+Use access tokens to circumvent the ssh key problems for the mirror (e.g. https://access_token@github.com/exampleuser/mirrored)

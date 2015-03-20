@@ -1,7 +1,10 @@
 name: mirror-git-repo
-version: 0.0.1
+version: 0.0.2
 description: mirror git repo with remote repository
 properties:
-  remote:
+  access-token:
+    type: string
+    required: true
+  mirror:
     type: string
     required: true
