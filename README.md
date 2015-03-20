@@ -8,7 +8,6 @@ Example
 --------
 
 Set the required access-token for the origin repository, and mirror git location.
-This step will use the step cache for faster incremental mirroring.
 
 ```
     - joepjoosten/mirror-git-repo:

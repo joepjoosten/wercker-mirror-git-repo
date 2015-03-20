@@ -1,5 +1,5 @@
 name: mirror-git-repo
-version: 0.0.2
+version: 0.0.3
 description: mirror git repo with remote repository
 properties:
   access-token:
